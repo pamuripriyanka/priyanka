@@ -5,13 +5,13 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class Ideone
+class pal
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		 int n, m, a = 0,x;
-		Scanner s = new Scanner(System.in);
-		n = s.nextInt();
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
 		m = n;
 		while(n > 0)
 		{
@@ -21,12 +21,12 @@ class Ideone
 		}
 		if(a == m)
 		{
-            		System.out.println(m+" is Palindrome");
+            		System.out.println("yes");
 		}
 	 
 		 else
 		 {
-            		System.out.println(m+" is Not Palindrome");
+            		System.out.println("no");
 		 }		
 	}
 }
