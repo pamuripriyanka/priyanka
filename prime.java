@@ -12,7 +12,6 @@ class prime
 		int temp;
 		boolean isPrime=true;
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter any number:");
 		//capture the input in an integer
 		int num=sc.nextInt();
         sc.close();
