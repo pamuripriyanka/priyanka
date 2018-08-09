@@ -32,7 +32,7 @@ class SortedOrder
 		System.out.println("sorted order:");
 		for(int i=0;i<n-1;i++)
 		{
-			System.out.print(a[i]+",");
+			System.out.print(a[i]+" ");
 		}
 		System.out.print(a[n-1]);
 	}
