@@ -5,19 +5,25 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class Ideone
+class maxminvalue
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner scan=new Scanner(System.in);
-		int n=scan.nextInt();
+		int n,i,large,small;
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
 		int a[]=new int[n];
-		for(int i=0;i<n;i++)
+		for(i=0;i<n;++i)
+			a[i]=sc.nextInt();
+			large=small=a[0];
+		for(i=1;i<n;++i)
 		{
-			a[i]=scan.nextInt();
+			if(a[i]>large)
+				large=a[i];
+				if(a[i]<small)
+					small=a[i];
 		}
-		Arrays.sort(a);
-		System.out.println(a[0]+"");
-		System.out.println(a[n-1]);
+		System.out.print(" "+small);
+		System.out.println(" "+large);
 	}
 }
