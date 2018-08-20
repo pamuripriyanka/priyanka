@@ -9,7 +9,6 @@ class sum
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		* package whatever; // don't place package name! */
 		int x,y,z;
 		Scanner sc=new Scanner(System.in);
 		x=sc.nextInt();
