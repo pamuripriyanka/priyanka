@@ -18,6 +18,6 @@ class Ideone
             		reversed=reversed*10+digit;
 			n/=10;
 		}
-		System.out.println(" " + reversed);
+		System.out.println(reversed);
 	}
 }
