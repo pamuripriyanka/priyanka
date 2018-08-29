@@ -12,6 +12,6 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int pow=2*n;
-		System.out.println(" "+pow);
+		System.out.println(pow);
 	}
 }
