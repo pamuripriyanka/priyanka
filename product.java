@@ -10,13 +10,13 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		int n,mul=1;
+		int n,m=1;
 		n=sc.nextInt();
 		while(n!=0)
 		{
-			mul=mul*(n%10);
+			m=m*(n%10);
 			n=n/10;
 		}
-		System.out.println(mul);
+		System.out.println(m);
 	}
 }
